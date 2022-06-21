@@ -1,13 +1,13 @@
 // Print Factorial number program
-let a = 3 ;
+let b = 3 ;
 let i = parseInt(process.argv[2]) ;
-if (a == 0 || a == 1){
-    console.log(a);
+if (b == 0 || b == 1){
+    console.log(b);
     }else{
-     for(let i = a ; i >=1; i--){
-        a = a * i ;
+     for(let i = b ; i >=1; i--){
+        b = b * i ;
      }   
-console.log(a);
+console.log(b);
    }
              
 

@@ -1,5 +1,6 @@
-// print upto 10 in revese
-let i = parseInt(process.argv[2]);
-for(let i = 10; i>=1 ; i--){
-    console.log(i) ;
+// print upto 10 in revese 
+
+let a = parseInt(process.argv[2]);
+for(let a = 10; a>=1 ; a--){
+    console.log(a) ;
 }
